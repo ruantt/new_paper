@@ -1,0 +1,15 @@
+tDG_4_XOff_r0:Experiments/tDG_4_XOff_r0/results
+tDG_4_XOff_r1:Experiments/tDG_4_XOff_r1/results
+tDG_4_XOff_r2:Experiments/tDG_4_XOff_r2/results
+tDG_4_XOff_r3:save_results/cifar10
+tDG_4_XOff_r4:save_results/cifar10
+tDG_4_XOff_r5:save_results/cifar10
+tDG_4_XOff_r6:save_results/cifar10
+tDG_4_XOff_r7:save_results/cifar10
+tDG_4_XOff_r8:save_results/cifar10
+tDG_4_XOff_r9:save_results/cifar10
+tDG_4_XOff_r10:save_results/cifar10
+tDG_4_XOff_S-boundary_mc_G_r0:save_results/cifar10
+tDG_4_XOff_S-boundary_mc_G_r1:save_results/cifar10
+tDG_4_XOff_S-boundary_mc_G_gate_then_rank_r0:save_results/cifar10
+tDG_4_XOff_S-boundary_mc_G_gate_then_rank_r0:save_results/cifar10
