@@ -334,8 +334,8 @@ def main():
         'use_mc_uncertainty': True,
         'mc_samples': 5,
         'mc_threshold': 0.6,
-        # 先验：务必非零权重并提供组合权重
-        'use_informativeness_prior': True,
+         # 先验：务必非零权重并提供组合权重
+        'use_informativeness_prior': False,
         'informativeness_weight': 0.2,              # 先验强度，可按需调
         'informativeness_schedule': 'none',         # 或 linear
         'informativeness_warmup': 1,
@@ -344,13 +344,13 @@ def main():
         'selector_percentiles': [0.5, 0.9],
 
         #以下2选1
-        # 'informativeness_combine_strategy': 'weighted_sum', #或者 gate_then_rank
-        # 'informativeness_weight_epistemic': 0.5,    # 必填：epistemic 权重
-        # 'informativeness_weight_boundary': 0.5,     # 必填：boundary 权重
+        'informativeness_combine_strategy': 'weighted_sum', #或者 gate_then_rank
+        'informativeness_weight_epistemic': 0.5,    # 必填：epistemic 权重
+        'informativeness_weight_boundary': 0.5,     # 必填：boundary 权重
     
-        'informativeness_combine_strategy': 'gate_then_rank',
-        'informativeness_gate_quantile': 0.7,   # 例：保留 top 30% epistemic
-        'informativeness_boundary_topk': 0.4,   # 例：在通过 gate 的样本里按 boundary 取前 40%
+        # 'informativeness_combine_strategy': 'gate_then_rank',
+        # 'informativeness_gate_quantile': 0.7,   # 例：保留 top 30% epistemic
+        # 'informativeness_boundary_topk': 0.4,   # 例：在通过 gate 的样本里按 boundary 取前 40%
 
     
         # 是否让评分链路保留梯度
